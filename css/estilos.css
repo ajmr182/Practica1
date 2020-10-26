@@ -1,0 +1,105 @@
+html,body{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  background-color: lightgray;
+  font-family: helvetica;
+  font-size: 12px;
+}
+
+nav {
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.logo{
+  height: 40px;
+  padding: 10px;
+
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+li{
+  text-align: center;
+  padding: 10px;
+}
+
+ul li a.nav{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+
+
+}
+
+a.nav:hover{
+  color: green;
+}
+
+a:hover{
+  color: green;
+}
+
+.productos{
+  display: flex;
+  justify-content: center;
+
+}
+
+.producto{
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  }
+
+.image{
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+}
+
+.todo{
+  box-shadow: 0 0 4px black;
+  height: 460px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  background-color: black;
+  border-radius: 20px;
+}
+
+.personas{
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+
+}
+
+.perosona{
+
+}
+
+.foto{
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+}
+
+.nav2 p{
+  color: white;
+  padding: 10px;
+}
